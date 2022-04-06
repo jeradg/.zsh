@@ -81,7 +81,7 @@ plugins=(
   fzf
   git
   node
-  osx
+  macos
   # postgres
   ruby
 )
