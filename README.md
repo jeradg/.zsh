@@ -21,3 +21,6 @@ My zsh config (for use with oh-my-zsh).
     ln -s ~/.zsh/.zshrc ~/.zshrc
     ```
 5. Reload your terminal. Game on.
+    ```
+    source ~/.zshrc
+    ```
