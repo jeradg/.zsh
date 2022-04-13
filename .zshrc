@@ -136,6 +136,9 @@ export USER=`whoami`
 
 export PGDATA="/usr/local/var/postgres"
 
+# Set up gpg for yubikey commit signing
+export GPG_TTY=$(tty)
+
 # Load NVM
 # (Don't use the nvm oh-my-zsh plugin. Doesn't load nvm from brew on mac.)
 export NVM_DIR="$HOME/.nvm"
@@ -145,6 +148,7 @@ export NVM_DIR="$HOME/.nvm"
 # autojump
 [ -f `brew --prefix`/etc/profile.d/autojump.sh  ] && . `brew --prefix`/etc/profile.d/autojump.sh
 
+# yarn
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 if [ -e /Users/jeradgallinger/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/jeradgallinger/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
