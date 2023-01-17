@@ -11,5 +11,5 @@ First, [install Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation
 Then install this config with
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jeradg/.zsh/main/install.sh)"
+zsh -c "$(curl -fsSL https://raw.githubusercontent.com/jeradg/.zsh/main/install.sh)"
 ```
