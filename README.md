@@ -9,5 +9,5 @@ My zsh config (for use with oh-my-zsh).
 Install with
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jeradg/.zsh/main/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jeradg/.zsh/main/install.sh)"
 ```
